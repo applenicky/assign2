@@ -49,7 +49,7 @@ void draw() {
  // background(255);
   switch (gameState){
     case GAME_START:
-    hp = 195;
+    hp = 195/5;
     fighterX = 580;
     fighterY = 240;
     image(start2,0,0);
